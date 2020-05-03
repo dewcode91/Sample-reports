@@ -1,6 +1,6 @@
 # Information disclosure (robots.txt file disclose admin panel)
 
-### Description
+#### Description
 At its most basic, vertical privilege escalation arises where an application does not enforce any protection over sensitive functionality. For example, administrative functions might be linked from an administrator's welcome page but not from a user's welcome page. However, a user might simply be able to access the administrative functions by browsing directly to the relevant admin URL.
 
 For example, a website might host sensitive functionality at the following URL:
@@ -14,22 +14,22 @@ https://insecure-website.com/robots.txt
 Even if the URL isn't disclosed anywhere, an attacker may be able to use a wordlist to brute-force the location of the sensitive functionality. 
 
 
-### Steps to reproduce
+#### Steps to reproduce
 
 1. Go to the lab and view `robots.txt` by appending `/robots.txt` to the lab URL.
-
 2. Note that the disallow line identifies the path to the admin panel. 
-
 3. In the URL bar replace `/robots.txt` with `/administrator-panel` to load the admin panel. 
+4. Delete user `carlos`. 
 
-4. Delete user carlos . 
+#### Proof of concept
 
-### Proof of concept
+Attachments :
 
-Attachments : Lab_poc.png ,Lab_poc1.png
+admin-panel.png
+robots.png
 
-### Impact 
+#### Impact 
 
-**An attacker can takeover administrator account and perform various actions**
+**An attacker can take-over administrator account and misuse the administrator privilege.**
 
-* Write more about impact like what a attacker can do and what type of damages could be possible against organization (reputational,financial damages) 
+* Write more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the organization (	  reputational, financial damages)
