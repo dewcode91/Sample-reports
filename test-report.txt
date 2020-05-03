@@ -1,0 +1,11 @@
+# Title
+
+# Description 
+
+# Steps to reproduce
+
+# Proof of concept 
+
+# Impact
+
+# Mitigation
