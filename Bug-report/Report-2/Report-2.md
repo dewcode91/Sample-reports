@@ -41,6 +41,6 @@ Attachments:
 
 **An attacker can take-over administrator account and misuse the administrator privilege.**
 
-* Write more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the organization (	  reputational, financial damages)
-
+* You can explain more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the 
+  organization (reputational, financial damages)
   
