@@ -8,7 +8,7 @@ https://insecure-website.com/login/home.jsp?admin=true
 
 https://insecure-website.com/login/home.jsp?role=1
 
-This approach is fundamentally insecure because a user can simply modify the value and gain access to functionality to which they are not authorized, such as administrative functions. You can observe `Admin=false'` parameter at cookie below in HTTP request. 
+This approach is fundamentally insecure because a user can simply modify the value and gain access to functionality to which they are not authorized, such as administrative functions. You can observe `Admin=false'` parameter at cookie header below in HTTP request. 
 
 ```
 GET /admin HTTP/1.1
@@ -32,16 +32,16 @@ Cache-Control: max-age=0
 3. In Burp Proxy, turn interception on and enable response interception.
 4. Complete and submit the login page, and forward the resulting request in Burp. 
 5. Observe that the response sets the cookie `Admin=false` Change it to `Admin=true` 
-6. Load the admin panel and delete carlos. 
+6. Load the admin panel and delete `carlos.` 
 
 #### Proof of concept
 
-**Screenshot attacted**
+Attachments :
 
-* Lab3_poc.png
-* Lab3_poc1.png
+1.http-request.png
 
 
 #### Impact 
 
-**An attacker can takeover admin account and perform any actions that admin can do. like delteting a user account, add new users, create post, update pages.**
+**An attacker can takeover the admin account and can able to perform any actions that admin can do. like deleting a user account,add new users,create a
+  posts,update pages.**
