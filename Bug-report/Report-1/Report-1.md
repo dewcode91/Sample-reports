@@ -26,6 +26,7 @@ Even if the URL isn't disclosed anywhere, an attacker may be able to use a wordl
 Attachments :
 
 admin-panel.png
+
 robots.png
 
 #### Impact 
