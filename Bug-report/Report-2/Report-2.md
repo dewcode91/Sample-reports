@@ -27,7 +27,9 @@ This script adds a link to the user's UI if they are an admin user. However, the
 ### Steps to reproduce
 
 1.Review the lab homepage's source using `view-source:` URI Scheme to put infront of URL.
+
 2.Observe that it contains some JavaScript that discloses the URL of the admin panel. 
+
 3.Load the admin panel and delete carlos. 
 
 
