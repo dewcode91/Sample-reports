@@ -1,4 +1,6 @@
 # The purpose of creating this repository 
-* Share codes
-* Share new exploits
-
+* Share CTF solution
+* Share exploits
+* Give back to infosec community
+* Share small programs
+* Share Study materials
