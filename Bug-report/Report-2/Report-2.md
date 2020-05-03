@@ -1,6 +1,6 @@
 # JavaScript file discloses the hidden the admin-panel path
 
-### Description
+#### Description
 In some cases, sensitive functionality is not robustly protected but is concealed by giving it a less predictable URL: so called security by obscurity. Merely hiding sensitive functionality does not provide effective access control since users might still discover the obfuscated URL in various ways.
 
 For example, consider an application that hosts administrative functions at the following URL:
@@ -24,24 +24,23 @@ if (isAdmin) {
 
 This script adds a link to the user's UI if they are an admin user. However, the script containing the URL is visible to all users regardless of their role. 
 
-### Steps to reproduce
+#### Steps to reproduce
 
 1.Review the lab homepage's source using `view-source:` URI Scheme to put infront of URL.
-
 2.Observe that it contains some JavaScript that discloses the URL of the admin panel. 
-
 3.Load the admin panel and delete carlos. 
 
-
-### Proof of conecpt
+#### Proof of conecpt
 
 Attachments: 
 
 1. admin-panel.png
 2. view-source.png
 
-### Impact 
+#### Impact 
 
-**An attacker can access admin panel and perform various malicious action**
+**An attacker can take-over administrator account and misuse the administrator privilege.**
+
+* Write more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the organization (	  reputational, financial damages)
 
   
