@@ -1,4 +1,4 @@
-# JavaScript file discloses the hidden the admin-panel path
+# JavaScript file discloses the hidden admin-panel path
 
 #### Description
 In some cases, sensitive functionality is not robustly protected but is concealed by giving it a less predictable URL: so called security by obscurity. Merely hiding sensitive functionality does not provide effective access control since users might still discover the obfuscated URL in various ways.
