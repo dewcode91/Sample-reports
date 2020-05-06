@@ -39,7 +39,7 @@ Cache-Control: max-age=0
 
 #### Proof of concept
 
-Video link https://vimeo.com/xxxxxxx
+Video link https://vimeo.com/000000000
 
 #### Impact 
 
