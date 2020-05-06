@@ -10,10 +10,9 @@ The application main functionality is to allows a user to select a choice based 
 1. Login to your account.
 2. Click on resources > onlinecourses. 
 3. Select a course and click on `View Course` 
-4. Now you are redirected to tutorial website.
-5. Before redirection copy the link from address bar.
-6. Append a payload `javascript:alert(document.cookie)` in `destURL` parameter. 
-7. Now you can see a pop on your screen.
+4. Now you are redirected to tutorial website(before redirection copy the link from address bar)
+5. Append a payload `javascript:alert(document.cookie)` in `destURL` parameter. 
+6. Now you can see a pop on your screen.
 
 #### Proof of concept
 
