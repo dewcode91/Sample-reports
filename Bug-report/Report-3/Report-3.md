@@ -8,7 +8,7 @@ https://insecure-website.com/login/home.jsp?admin=true
 
 https://insecure-website.com/login/home.jsp?role=1
 
-This approach is fundamentally insecure because a user can simply modify the value and gain access to functionality to which they are not authorized, such as administrative functions. You can observe `Admin=false'` parameter at cookie header below in HTTP request. 
+This approach is fundamentally insecure because a user can simply modify the value and gain access to functionality to which they are not authorized, such as administrative functions. You can observe `Admin=false` parameter at cookie header below in HTTP request. 
 
 ```
 GET /admin HTTP/1.1
@@ -43,5 +43,4 @@ Attachments :
 
 #### Impact 
 
-**An attacker can takeover the admin account and can able to perform any actions that admin can do. like deleting a user account,add new users,create a
-  posts,update pages.**
+**An attacker can takeover the admin account and can able to perform any actions that admin can do. like deleting a user account,add new users,create a posts,update pages.**
