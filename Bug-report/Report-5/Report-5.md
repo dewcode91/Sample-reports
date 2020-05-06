@@ -20,4 +20,4 @@ Video link https://vimeo.com/000000000
 
 #### Impact 
 
-**An attacker can redirect a user to a malicious website and able to run javascript on victim's browser and steal victim's session cookies.**
+**An attacker can redirect a user to a malicious website,able to run javascript on victim's browser and steal victim's session cookies.**
