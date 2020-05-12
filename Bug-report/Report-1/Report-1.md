@@ -1,4 +1,4 @@
-# Information disclosure (robots.txt file disclose admin panel)
+# Unprotected admin functionality (robots.txt file disclose admin panel)
 
 #### Description
 At its most basic, vertical privilege escalation arises where an application does not enforce any protection over sensitive functionality. For example, administrative functions might be linked from an administrator's welcome page but not from a user's welcome page. However, a user might simply be able to access the administrative functions by browsing directly to the relevant admin URL.
