@@ -38,7 +38,7 @@ Cache-Control: max-age=0
 
 Attachments :
 
-1.http-request.png
+http-request.png
 
 
 #### Impact 
