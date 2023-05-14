@@ -1,4 +1,4 @@
-## Broken access control can lead to admin account takeover
+# Broken access control can lead to access of admin's account
 
 #### Description
 Some applications enforce access controls at the platform layer by restricting access to specific URLs and HTTP methods based on the user's role. For example an application might configure rules like the following:
