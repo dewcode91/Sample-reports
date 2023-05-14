@@ -23,6 +23,4 @@ Even if the URL isn't disclosed anywhere, an attacker may be able to use a wordl
 
 #### Impact 
 
-**An attacker can takeover administrator account and misuse the administrator privilege.**
-
-- You can explain more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the organization (reputational, financial damages)
+By gaining access to admin functionality, a low privilege user can perform actions that are typically restricted to administrators or privileged users. This could include modifying or deleting sensitive data, altering system configurations, or creating new user accounts with elevated privileges.
