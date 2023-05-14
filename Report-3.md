@@ -1,4 +1,4 @@
-## Broken authentication can lead to admin account takeover 
+## Unauthorised user's can access admin panel 
 
 #### Description
 
