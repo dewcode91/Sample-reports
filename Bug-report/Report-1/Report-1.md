@@ -21,16 +21,8 @@ Even if the URL isn't disclosed anywhere, an attacker may be able to use a wordl
 3. In the URL bar replace `/robots.txt` with `/administrator-panel` to load the admin panel. 
 4. Delete user `carlos`. 
 
-#### Proof of concept
-
-Attachments :
-
-1. admin-panel.png
-2. robots.png
-
 #### Impact 
 
 **An attacker can takeover administrator account and misuse the administrator privilege.**
 
-* You can explain more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the 
-  organization (reputational, financial damages)
+- You can explain more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible against the organization (reputational, financial damages)
