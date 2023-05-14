@@ -37,10 +37,6 @@ Cache-Control: max-age=0
 4. Change the value of the `X-Original-URL` header to `/admin`. Observe that you can now access the admin page. 
 5. To delete the user carlos, add `?username=carlos` to the real query string, and change the `X-Original-URL` path to `/admin/delete`.
 
-#### Proof of concept
-
-Video link https://www.youtube.com/watch?v=Rj0B12Vsh_E
-
 #### Impact 
 
 **An attacker can bypass the authorization and abuse administrator functionality**
