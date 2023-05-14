@@ -39,4 +39,4 @@ Cache-Control: max-age=0
 
 #### Impact 
 
-**An attacker can bypass the authorization and abuse administrator functionality**
+Inexperienced or malicious users who access admin functionalities can unintentionally or intentionally make changes that destabilize the system. They may delete critical files, misconfigure settings, or introduce malicious code, resulting in system crashes, performance degradation, or even the complete loss of data.
