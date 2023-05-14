@@ -37,4 +37,4 @@ Cache-Control: max-age=0
 
 #### Impact 
 
-**An attacker can takeover the admin account and can able to perform any actions that admin can do. like deleting a user account,add new users,create a posts,update pages.**
+The low privilege user might identify and exploit vulnerabilities in the admin functionality, leading to further compromise of the system. They may use this access to escalate their privileges, execute arbitrary code, or launch additional attacks against other users or systems
