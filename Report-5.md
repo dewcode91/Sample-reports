@@ -1,9 +1,7 @@
 # Open redirect can lead to cross site scripting
 
 #### Description
-Open redirection vulnerabilities arise when an application incorporates user-controllable data into the target of a redirection in an unsafe way. An attacker can construct a URL within the application that causes a redirection to an arbitrary external domain. This behavior can be leveraged to facilitate phishing attacks against users of the application. The ability to use an authentic application URL, targeting the correct domain and with a valid SSL certificate (if SSL is used), lends credibility to the phishing attack because many users, even if they verify these features, will not notice the subsequent redirection to a different domain.
-
-The application main functionality is to allows a user to select a choice based course and provide online study material. While testing this workflow I noticed when a user clicks on `view course`, the application redirects it to an external website. as you can see in URL https://insecure-website.com/resources/course/redirect?destUrl=payload, `destURL` parameter is responsible for redirection. While this is an open redirection, an attacker can abuse this behavior and able to redirect users to any website.   
+The application main functionality is allows a user to select a choice based course and provide online study material. While testing this workflow I noticed when a user clicks on `view course`, the application redirects it to an external website. as you can see in URL https://insecure-website.com/resources/course/redirect?destUrl=payload, `destURL` parameter is responsible for redirection. While this is an open redirection, an attacker can abuse this behavior and able to redirect users to any website.   
 
 #### Steps to reproduce
 
@@ -15,5 +13,4 @@ The application main functionality is to allows a user to select a choice based 
 6. Now you can see a pop on your screen.
 
 #### Impact 
-
-**An attacker can redirect the user's to a malicious website, can able to run javascript on the victim's browser and steal victim's session cookies.**
+This vulnerability allows an attacker to inject and execute arbitrary script code within the context of a user's web browser. This malicious script code can be used to steal sensitive user information, perform phishing attacks, or even gain unauthorised access to the user's account.
