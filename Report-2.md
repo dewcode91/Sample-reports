@@ -32,7 +32,5 @@ This script adds a link to the user's UI if they are an admin user. However, the
 
 #### Impact 
 
-**An attacker can takeover administrator account and misuse the administrator privilege.**
-
-- You can explain more about how an attacker can take advantage. like what an attacker can do and what type of damages could be possible     against the organization (reputational, financial damages)
+Low privilege users with admin access can perform actions that are beyond their authorized scope, bypassing the intended security measures. This could include granting themselves additional privileges, changing permissions, or executing commands that should be restricted to administrators. These unauthorized actions can create backdoors, increase attack surfaces, and compromise the overall security of the system.
   
