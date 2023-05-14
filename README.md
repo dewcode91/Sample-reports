@@ -1,3 +1,4 @@
 # Readme
-Writing a good report is a big challenge for bug bounty hunters. If you are a beginner, it is very difficult to understand what to write in a report. I have tried to create a collection of some of my original and sample reports. I hope it will help you.
+Writing a bug bounty report can indeed be challenging, especially for beginners who are not familiar with the process. However, with some guidance and practice, you can develop the skills necessary to write effective bug bounty reports. 
 
+Remember that bug bounty programs appreciate well-documented and informative reports. Even if you're a beginner, your effort to report vulnerabilities responsibly is valued. Good luck with your bug bounty reports!
