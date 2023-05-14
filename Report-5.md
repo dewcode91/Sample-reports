@@ -14,10 +14,6 @@ The application main functionality is to allows a user to select a choice based 
 5. Append a payload `javascript:alert(document.cookie)` in `destURL` parameter. 
 6. Now you can see a pop on your screen.
 
-#### Proof of concept
-
-Video link https://vimeo.com/000000000
-
 #### Impact 
 
 **An attacker can redirect the user's to a malicious website, can able to run javascript on the victim's browser and steal victim's session cookies.**
