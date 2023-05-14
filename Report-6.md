@@ -7,7 +7,7 @@ Some old Swagger UI versions are vulnerable to XSS by overwriting their configur
 
 #### Steps to reproduce
 1. Go to: {{endpoint}}?configUrl=https://jumpy-floor.surge.sh/test.json
-2. You should see an alert box (screenshot attached)
+2. Observe an alert box on your screen
 
 #### Impact
 This vulnerability allows an attacker to inject and execute arbitrary script code within the context of a user's web browser. This malicious script code can be used to steal sensitive user information, perform phishing attacks, or even gain unauthorised access to the user's account.
