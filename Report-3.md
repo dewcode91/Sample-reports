@@ -34,12 +34,6 @@ Cache-Control: max-age=0
 5. Observe that the response sets the cookie `Admin=false` Change it to `Admin=true` 
 6. Load the admin panel and delete `carlos.` 
 
-#### Proof of concept
-
-Attachments :
-
-http-request.png
-
 
 #### Impact 
 
