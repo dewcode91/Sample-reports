@@ -1,3 +1,5 @@
+# Detect exposed Swagger UI
+
 #### Description
 Swagger UI is a web interface for interacting with a web API defined using the OpenAPI (formerly known as Swagger) specification. It allows you to visualize and interact with the API's resources without having to write any code.
 
@@ -12,3 +14,4 @@ This vulnerability allows an attacker to inject and execute arbitrary script cod
 
 #### Resources / Supporting Material:
 - https://www.vidocsecurity.com/blog/hacking-swagger-ui-from-xss-to-account-takeovers/
+- https://app.vidocsecurity.com/public-library/787db825-d8c0-4182-a79f-6c7520745c49
