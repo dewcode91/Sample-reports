@@ -1,4 +1,4 @@
-# Detect exposed Swagger UI
+# XSS due to older version of Swagger UI
 
 #### Description
 Swagger UI is a web interface for interacting with a web API defined using the OpenAPI (formerly known as Swagger) specification. It allows you to visualize and interact with the API's resources without having to write any code.
