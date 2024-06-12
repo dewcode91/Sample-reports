@@ -5,7 +5,7 @@ Swagger UI is a web interface for interacting with a web API defined using the O
 
 Some old Swagger UI versions are vulnerable to XSS by overwriting their configuration with the `?configUrl` or `?url` parameter. By doing so, you can override the page to do a malicious act, while it still has a trustworthy URL. And no authentication is needed to exploit this vulnerability
 
-#### Steps to reproduce
+#### Steps to Reproduce
 1. Go to: {{endpoint}}?configUrl=https://jumpy-floor.surge.sh/test.json
 2. Observe an alert box on your screen
 
