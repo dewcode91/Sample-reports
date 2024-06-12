@@ -3,7 +3,7 @@
 #### Description
 The application main functionality is allows a user to select a choice based course and provide online study material. While testing this workflow I noticed when a user clicks on `view course`, the application redirects it to an external website. as you can see in URL https://insecure-website.com/resources/course/redirect?destUrl=payload, `destURL` parameter is responsible for redirection. While this is an open redirection, an attacker can abuse this behavior and able to redirect users to any website.   
 
-#### Steps to reproduce
+#### Steps to Reproduce
 
 1. Login to your account.
 2. Click on resources > onlinecourses. 
