@@ -24,7 +24,7 @@ if (isAdmin) {
 
 This script adds a link to the user's UI if they are an admin user. However, the script containing the URL is visible to all users regardless of their role. 
 
-#### Steps to reproduce
+#### Steps to Reproduce
 
 1. Review the lab homepage's source using `view-source:` URI Scheme to put infront of URL.
 2. Observe that it contains some JavaScript that discloses the URL of the admin panel.
