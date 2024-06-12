@@ -25,7 +25,7 @@ Cache-Control: max-age=0
 ```
 
 
-#### Steps to reproduce
+#### Steps to Reproduce
 
 1. Browse to `/admin` and observe that you can't access the admin panel. 
 2. Browse to the login page. 
