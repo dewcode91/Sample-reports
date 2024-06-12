@@ -14,7 +14,7 @@ https://insecure-website.com/robots.txt
 Even if the URL isn't disclosed anywhere, an attacker may be able to use a wordlist to brute-force the location of the sensitive functionality. 
 
 
-#### Steps to reproduce
+#### Steps to Reproduce
 
 1. Go to the lab and view `robots.txt` by appending `/robots.txt` to the lab URL.
 2. Note that the disallow line identifies the path to the admin panel. 
