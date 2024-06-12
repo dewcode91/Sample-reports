@@ -9,7 +9,7 @@ But if the user tries to import a calendar from http://127.0.0.1:22 (with the po
 
 This behavior can lead to performing port scanning to the internal network or may be possible to read internal files from the server.
 
-#### Steps to reproduce
+#### Steps to Reproduce
 1. Browse and sign in https://calendar.example.com
 2. Observe import icon infront of Calendars > Click from a URL
 3. Now try to import calendar from http://127.0.0.1:22 and observe the response
