@@ -29,7 +29,7 @@ Cache-Control: max-age=0
 
 ```
 
-#### Steps to reproduce
+#### Steps to Reproduce
 
 1. Try to load `/admin` and observe that you get blocked. 
 2. Observe that the response is very plain, suggesting it may originate from a front-end system. 
