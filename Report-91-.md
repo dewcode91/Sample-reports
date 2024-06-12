@@ -30,7 +30,7 @@ url=http://169.254.169.254/latest/meta-data/
 ```
 
 
-#### Steps to reproduce
+#### Steps to Reproduce
 
 1. Navigate to the upload image from url feature on your website.
 2. Enter the following payload into the URL parameter: http://169.254.169.254/latest/meta-data/
